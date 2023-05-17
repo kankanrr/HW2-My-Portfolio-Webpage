@@ -15,9 +15,9 @@
 }
 
 body {
-    background-image: url("./images/HD-wallpaper-anime-kamen-rider.jpg");
+    background-image: url("./images/1272212.jpg");
     background-image: no-repeat;
-    background-size: cover;
+    background-size: contain;
 }
 
 /* header styling */
@@ -28,6 +28,7 @@ header {
     align-items: center;
     box-shadow: 0 1px 8px black;
     padding: 1em;
+    background-image: linear-gradient(to right, rgb(217, 0, 255) , rgb(60, 0, 255));
 }
 
 header h1 {
@@ -50,7 +51,7 @@ header a {
 header a:hover {
     padding: 1em;
     border-radius: 20px;
-    box-shadow: 0 8px 10px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    box-shadow: 10px 20px 30px 0 rgba(0,0,0,0.5), 0 17px 50px 0 rgba(0,0,0,0.5);
 }
 
 /* About img styling */
@@ -61,7 +62,7 @@ header a:hover {
     border-radius: 10%;
     object-fit: cover;
     margin: 10px;
-    box-shadow: 0 5px 8px rgba(202, 87, 196, 0.19);
+    box-shadow: 0 10px 20px rgba(202, 87, 196, 0.329);
 }
 
 /* main & containers styling */
@@ -83,7 +84,11 @@ section{
     display: flex;
 }
 
-section p{
+article{
+    display: flex;
+}
+
+article p {
     align-self: center;
 }
 
@@ -147,18 +152,37 @@ section p {
 
 /* contact form */
 
-form {
-    display: inline-flex;
-    padding: 1%;
-    flex-direction: column;
-    align-content: center;
-    margin-left: 39%;
-    width: 20%;
-    border: solid 3px black;
-    border-radius: 3px;
-    background: rgb(168, 37, 168);
+#contact-form {
+    background:rgba(4, 4, 4, 0.244);
+    padding: 1.5%;
 }
 
-#contact-form h2{
+#contact {
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 41%;
+    width: 20%;
+    background-image: linear-gradient(to right, rgb(217, 0, 255) , rgb(60, 0, 255));
+    border-radius: 2%;
+    transition: all 0.6s ease 0s;
+}
+
+#contact:hover {
+    box-shadow: 1px 1px 10px 5px rgba(85, 16, 223, 0.5), 1px 1px 10px 5px rgba(244, 7, 204, 0.5);
+}
+
+h3 {
+    align-self: center;
+}
+
+/* footer styling */
+
+footer {
     text-align: center;
+    padding: .7%;
+    background-image: linear-gradient(to right, rgb(217, 0, 255) , rgb(60, 0, 255));
+    color: white;
+    font-size: 1.2em;
 }
