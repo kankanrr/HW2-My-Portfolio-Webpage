@@ -177,6 +177,24 @@ h3 {
     align-self: center;
 }
 
+input[type=text] {
+    border: 2px solid rgba(7, 7, 7, 0.638);
+    border-radius: 4px;
+    color: black;
+}
+
+input[type=submit] {
+    background-color: rgba(28, 45, 72, 0.736);
+    transition-duration: 0.4s;
+    box-shadow: 0 8px 10px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+input[type=submit]:hover {
+    background-color: blueviolet;
+}
+
+
+
 /* footer styling */
 
 footer {
