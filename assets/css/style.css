@@ -4,6 +4,10 @@
     border: solid 1px red;
 } */
 
+/* custom font */
+
+@import url('https://fonts.googleapis.com/css2?family=Tomorrow&display=swap');
+
 /* global styles */
 
 * {
@@ -13,6 +17,7 @@
     font-size: 16px;
     box-sizing: border-box;
     text-decoration: none;
+    font-family: 'Tomorrow', sans-serif;
 }
 
 body {
@@ -91,6 +96,7 @@ article{
 
 article p {
     align-self: center;
+    margin: 2%;
 }
 
 .portfolio-container {
