@@ -1,0 +1,21 @@
+/* Wireframe */
+
+* {
+    border: solid 1px red;
+}
+
+/* global styles */
+
+* {
+    padding: 0;
+    margin: 0;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("./images/HD-wallpaper-anime-kamen-rider.jpg");
+    background-image: no-repeat;
+    background-size: cover;
+}
