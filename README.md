@@ -15,7 +15,7 @@ We were assigned with the task of creating a portfolio landing page which displa
 
 ![Screenshot Preview of Portfolio Page](./assets/css/images/pageprev.PNG)
 
-## Conclussion
+## Conclusion
 - - - -
 
 The following portfolio page is now deployed and fully available to view at:
