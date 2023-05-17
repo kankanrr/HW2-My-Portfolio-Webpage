@@ -19,3 +19,36 @@ body {
     background-image: no-repeat;
     background-size: cover;
 }
+
+/* header styling */
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    box-shadow: 0 1px 8px black;
+    padding: 1em;
+}
+
+header h1 {
+    margin-right: auto;
+    font-size: 1.5em;
+    color: aliceblue;
+}
+
+header li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 1em;
+}
+
+header a {
+    text-decoration: none;
+    transition: all 0.6s ease 0s;
+}
+
+header a:hover {
+    padding: 1em;
+    border-radius: 20px;
+    box-shadow: 0 8px 10px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
