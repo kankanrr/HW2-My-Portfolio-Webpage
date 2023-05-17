@@ -1,8 +1,8 @@
 /* Wireframe */
 
-* {
+/* * {
     border: solid 1px red;
-}
+} */
 
 /* global styles */
 
@@ -12,6 +12,7 @@
     color: rgb(255, 255, 255);
     font-size: 16px;
     box-sizing: border-box;
+    text-decoration: none;
 }
 
 body {
@@ -62,7 +63,7 @@ header a:hover {
     border-radius: 10%;
     object-fit: cover;
     margin: 10px;
-    box-shadow: 0 10px 20px rgba(202, 87, 196, 0.329);
+    box-shadow: 1px 1px 10px 5px rgba(202, 87, 196, 0.329);
 }
 
 /* main & containers styling */
@@ -127,6 +128,11 @@ article p {
     width: 100%;
 }
 
+.placeholder{
+    background-image: linear-gradient(to right, rgb(217, 0, 255) , rgb(60, 0, 255));
+    border-radius: 1%;
+    transition: all 0.6s ease 0s;
+}
 .placeholder:hover {
     opacity: 0.5;
 }
@@ -187,6 +193,10 @@ input[type=submit] {
     background-color: rgba(28, 45, 72, 0.736);
     transition-duration: 0.4s;
     box-shadow: 0 8px 10px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    border: none;
+    border-radius: 4px;
+    margin: 3%;
+    padding: 2%;
 }
 
 input[type=submit]:hover {
@@ -203,4 +213,12 @@ footer {
     background-image: linear-gradient(to right, rgb(217, 0, 255) , rgb(60, 0, 255));
     color: white;
     font-size: 1.2em;
+}
+
+/* media screen */
+
+@media screen and (max-width:700px) {
+    section {
+        flex-direction: column;
+    }
 }
